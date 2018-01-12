@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/diegogurpegui
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://diegogurpegui.com
+  * I am diegogurpegui (https://keybase.io/diegogurpegui) on keybase.
+  * I have a public key ASAd5t43T5M_7_lRuTgpVF9s6UnD5ekKIiRZ-oFSdYJKqwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01201de6de374f933feff951b93829545f6ce949c3e5e90a222459fa815275824aab0a",
+      "host": "keybase.io",
+      "kid": "01201de6de374f933feff951b93829545f6ce949c3e5e90a222459fa815275824aab0a",
+      "uid": "4bafe4cd9f7e280b7d698f0f939cd719",
+      "username": "diegogurpegui"
+    },
+    "merkle_root": {
+      "ctime": 1515779067,
+      "hash": "68a9296363be8f197f86ff33525f3a9a18c60126f61e2831eb7fde86e4030ab0b11a60fc68908817f7b46be0cb0d8de5097e63c1f044c6ca669c9d0e64453077",
+      "hash_meta": "b170edea86b6be19cfb2ee33e7322663ee3f38c6a4bc8d95fb376b0296dc7131",
+      "seqno": 1920295
+    },
+    "service": {
+      "hostname": "diegogurpegui.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.38"
+  },
+  "ctime": 1515779077,
+  "expire_in": 504576000,
+  "prev": "07767696d26e1d82eb11d28d1471655e987f1f62f262a3278a2298f2f18e4743",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgHebeN0+TP+/5Ubk4KVRfbOlJw+XpCiIkWfqBUnWCSqsKp3BheWxvYWTFA017ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMWRlNmRlMzc0ZjkzM2ZlZmY5NTFiOTM4Mjk1NDVmNmNlOTQ5YzNlNWU5MGEyMjI0NTlmYTgxNTI3NTgyNGFhYjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMWRlNmRlMzc0ZjkzM2ZlZmY5NTFiOTM4Mjk1NDVmNmNlOTQ5YzNlNWU5MGEyMjI0NTlmYTgxNTI3NTgyNGFhYjBhIiwidWlkIjoiNGJhZmU0Y2Q5ZjdlMjgwYjdkNjk4ZjBmOTM5Y2Q3MTkiLCJ1c2VybmFtZSI6ImRpZWdvZ3VycGVndWkifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MTU3NzkwNjcsImhhc2giOiI2OGE5Mjk2MzYzYmU4ZjE5N2Y4NmZmMzM1MjVmM2E5YTE4YzYwMTI2ZjYxZTI4MzFlYjdmZGU4NmU0MDMwYWIwYjExYTYwZmM2ODkwODgxN2Y3YjQ2YmUwY2IwZDhkZTUwOTdlNjNjMWYwNDRjNmNhNjY5YzlkMGU2NDQ1MzA3NyIsImhhc2hfbWV0YSI6ImIxNzBlZGVhODZiNmJlMTljZmIyZWUzM2U3MzIyNjYzZWUzZjM4YzZhNGJjOGQ5NWZiMzc2YjAyOTZkYzcxMzEiLCJzZXFubyI6MTkyMDI5NX0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJkaWVnb2d1cnBlZ3VpLmNvbSIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMzgifSwiY3RpbWUiOjE1MTU3NzkwNzcsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiMDc3Njc2OTZkMjZlMWQ4MmViMTFkMjhkMTQ3MTY1NWU5ODdmMWY2MmYyNjJhMzI3OGEyMjk4ZjJmMThlNDc0MyIsInNlcW5vIjo2LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQB3YV4PDZ+ABpOut/SuKUhBXnz/GIwoGYDyZOmoFgvZAPu2E9ay5gUSqXBuwiiXFDg6oqx4Vh/gIFjg9YrhZXwGoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCCUO8K2xoVeqKc3D9lxaFMHw8v5TQY/M6TM0uvyN0klrKN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/diegogurpegui
+
+==================================================================
