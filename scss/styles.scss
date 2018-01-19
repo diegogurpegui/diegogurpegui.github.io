@@ -32,17 +32,27 @@ body {
     .social {
         a {
             color: $white;
+            fill: $white;
             font-size: 175%;
-            margin: 1rem;
             border: 1px solid #fff;
             border-radius: 50%;
             height: 3rem;
             width: 3rem;
             display: inline-block;
             text-align: center;
+            margin: 0.5rem;
+            @include media-breakpoint-only(sm) {
+                margin: 1rem;
+            }
             &:hover {
                 color: $black;
+                fill: $black;
                 background-color: $white;
+            }
+
+            svg {
+                width: 50%;
+                height: 50%;
             }
         }
     }

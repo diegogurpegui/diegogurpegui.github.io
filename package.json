@@ -1,6 +1,6 @@
 {
   "name": "diegogurpegui.github.io",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Diego H. Gurpegui website",
   "main": "index.js",
   "scripts": {
@@ -12,13 +12,13 @@
     "url": "git+https://github.com/diegogurpegui/diegogurpegui.github.io.git"
   },
   "author": "Diego H. Gurpegui",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/diegogurpegui/diegogurpegui.github.io/issues"
   },
   "homepage": "https://github.com/diegogurpegui/diegogurpegui.github.io#readme",
   "dependencies": {
-    "bootstrap": "^4.0.0-beta",
+    "bootstrap": "4.0.0",
     "font-awesome": "^4.7.0"
   },
   "devDependencies": {
