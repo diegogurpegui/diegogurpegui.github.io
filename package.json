@@ -19,11 +19,11 @@
   "homepage": "https://github.com/diegogurpegui/diegogurpegui.github.io#readme",
   "dependencies": {
     "bootstrap": "4.0.0",
-    "font-awesome": "^4.7.0",
-    "npm": "^6.0.0"
+    "font-awesome": "^4.7.0"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-sass": "^3.2.1"
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.1",
+    "hoek": "^5.0.3"
   }
 }
