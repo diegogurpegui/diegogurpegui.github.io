@@ -31,6 +31,10 @@ body {
     }
 
     .social {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
         a {
             color: $white;
             fill: $white;
@@ -39,7 +43,9 @@ body {
             border-radius: 50%;
             height: 3rem;
             width: 3rem;
-            display: inline-block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             text-align: center;
             margin: 0.5rem;
             @include media-breakpoint-only(sm) {
