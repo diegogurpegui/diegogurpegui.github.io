@@ -7207,34 +7207,49 @@ body {
     @media (min-width: 576px) {
       .main-container h1 {
         font-size: 400%; } }
-  .main-container .social {
+  .main-container footer {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center; }
-    .main-container .social a {
-      color: #fff;
-      fill: #fff;
-      font-size: 175%;
-      border: 1px solid #fff;
-      border-radius: 50%;
-      height: 3rem;
-      width: 3rem;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around; }
+    .main-container footer .social {
       display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      margin: 0.5rem; }
-      @media (min-width: 576px) and (max-width: 767.98px) {
-        .main-container .social a {
-          margin: 1rem; } }
-      .main-container .social a:hover {
-        background-color: #fff; }
-        .main-container .social a:hover svg, .main-container .social a:hover i {
-          color: #000;
-          fill: #000; }
-      .main-container .social a i {
-        display: inline-block; }
-      .main-container .social a svg {
-        width: 50%;
-        height: 50%; }
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center; }
+      .main-container footer .social a {
+        color: #fff;
+        fill: #fff;
+        font-size: 175%;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        height: 3rem;
+        width: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0.5rem; }
+        @media (min-width: 576px) and (max-width: 767.98px) {
+          .main-container footer .social a {
+            margin: 1rem; } }
+        .main-container footer .social a:hover {
+          background-color: #fff; }
+          .main-container footer .social a:hover svg, .main-container footer .social a:hover i {
+            color: #000;
+            fill: #000; }
+        .main-container footer .social a i {
+          display: inline-block; }
+        .main-container footer .social a svg {
+          width: 50%;
+          height: 50%; }
+
+.articles-list > div {
+  margin-top: 2em;
+  margin-bottom: 2em; }
+  .articles-list > div::after {
+    display: block;
+    width: 5em;
+    content: "";
+    margin: 0 auto;
+    border-bottom: 1px solid #aaa; }
