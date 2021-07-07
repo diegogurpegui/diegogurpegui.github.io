@@ -7244,10 +7244,10 @@ body {
           width: 50%;
           height: 50%; }
 
-.articles-list > div {
+.articles-list > div, .media-list > div {
   margin-top: 2em;
   margin-bottom: 2em; }
-  .articles-list > div::after {
+  .articles-list > div::after, .media-list > div::after {
     display: block;
     width: 5em;
     content: "";
