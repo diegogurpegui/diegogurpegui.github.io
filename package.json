@@ -18,10 +18,11 @@
   },
   "homepage": "https://github.com/diegogurpegui/diegogurpegui.github.io#readme",
   "dependencies": {
-    "bootstrap": "^4.6.0"
+    "bootstrap": "^5.1.3"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
-    "gulp-sass": "^4.1.0"
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.50.0"
   }
 }
