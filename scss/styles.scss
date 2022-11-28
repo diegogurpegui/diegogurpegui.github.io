@@ -34,6 +34,20 @@ a {
         }
     }
 
+    .content-links {
+        a {
+            border-width: 1px;
+            border-style: solid;
+            padding: 0.5em;
+            display: inline-block;
+            margin: 0.5em;
+            &:hover {
+                background-color: var(--bs-link-hover-color);
+                color: #000000;
+            }
+          }
+    }
+
     footer {
         display: flex;
         flex-direction: column;

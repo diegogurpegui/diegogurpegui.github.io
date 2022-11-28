@@ -10794,6 +10794,17 @@ a {
     font-size: 400%;
   }
 }
+.main-container .content-links a {
+  border-width: 1px;
+  border-style: solid;
+  padding: 0.5em;
+  display: inline-block;
+  margin: 0.5em;
+}
+.main-container .content-links a:hover {
+  background-color: var(--bs-link-hover-color);
+  color: #000000;
+}
 .main-container footer {
   display: flex;
   flex-direction: column;
