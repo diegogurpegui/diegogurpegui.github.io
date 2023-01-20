@@ -1,111 +1,140 @@
-@import '_variables';
+@import "_variables";
 
-@import '../node_modules/bootstrap/scss/bootstrap';
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 * {
-    -webkit-transition: all 0.5s linear;
-    transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
 }
 
-html, body {
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
 
 body {
-    text-align: center;
+  text-align: center;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .main-container {
-    // height: 100%;
-    min-height: 100%;
+  // height: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+
+  h1 {
+    font-size: 200%;
+    @include media-breakpoint-up(sm) {
+      font-size: 400%;
+    }
+  }
+
+  .content-links {
+    a {
+      border-width: 1px;
+      border-style: solid;
+      padding: 0.5em;
+      display: inline-block;
+      margin: 0.5em;
+      &:hover {
+        background-color: var(--bs-link-hover-color);
+        color: #000000;
+      }
+    }
+  }
+
+  footer {
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: space-around;
 
-    h1 {
-        font-size: 200%;
-        @include media-breakpoint-up(sm){
-            font-size: 400%;
+    .social {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      a {
+        color: $white;
+        fill: $white;
+        font-size: 175%;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        height: 3rem;
+        width: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0.5rem;
+        @include media-breakpoint-only(sm) {
+          margin: 1rem;
         }
-    }
 
-    .content-links {
-        a {
-            border-width: 1px;
-            border-style: solid;
-            padding: 0.5em;
+        .nostr-logo {
+          display: inline-block;
+          height: 1em;
+          width: 1em;
+          border-style: solid;
+          border-radius: 50%;
+          border-width: 1px;
+          border-color: $white;
+          overflow: hidden;
+          & > span {
+            background-color: $white;
             display: inline-block;
-            margin: 0.5em;
-            &:hover {
-                background-color: var(--bs-link-hover-color);
-                color: #000000;
+            height: 25%;
+            margin-top: 0.25em;
+            width: 100%;
+          }
+        }
+
+        &:hover {
+          background-color: $white;
+          svg,
+          i {
+            color: $black;
+            fill: $black;
+          }
+
+          .nostr-logo {
+            border-color: $black;
+            & > span {
+              background-color: $black;
             }
           }
-    }
-
-    footer {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: space-around;
-
-        .social {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: center;
-            a {
-                color: $white;
-                fill: $white;
-                font-size: 175%;
-                border: 1px solid #fff;
-                border-radius: 50%;
-                height: 3rem;
-                width: 3rem;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                text-align: center;
-                margin: 0.5rem;
-                @include media-breakpoint-only(sm) {
-                    margin: 1rem;
-                }
-                &:hover {
-                    background-color: $white;
-                    svg, i {
-                        color: $black;
-                        fill: $black;
-                    }
-                }
-
-                i {
-                    display: inline-block;
-                }
-                svg {
-                    width: 50%;
-                    height: 50%;
-                }
-            }
         }
+
+        i {
+          display: inline-block;
+        }
+        svg {
+          width: 50%;
+          height: 50%;
+        }
+      }
     }
+  }
 }
 
-.articles-list, .media-list {
-    > div {
-        margin-top: 2em;
-        margin-bottom: 2em;
+.articles-list,
+.media-list {
+  > div {
+    margin-top: 2em;
+    margin-bottom: 2em;
 
-        &::after {
-            display: block;
-            width: 5em;
-            content: "";
-            margin: 0 auto;
-            border-bottom: 1px solid #aaa;
-        }
+    &::after {
+      display: block;
+      width: 5em;
+      content: "";
+      margin: 0 auto;
+      border-bottom: 1px solid #aaa;
     }
+  }
 }

@@ -10767,7 +10767,8 @@ textarea.form-control-lg {
   transition: all 0.5s linear;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -10836,12 +10837,36 @@ a {
     margin: 1rem;
   }
 }
+.main-container footer .social a .nostr-logo {
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  border-style: solid;
+  border-radius: 50%;
+  border-width: 1px;
+  border-color: #fff;
+  overflow: hidden;
+}
+.main-container footer .social a .nostr-logo > span {
+  background-color: #fff;
+  display: inline-block;
+  height: 25%;
+  margin-top: 0.25em;
+  width: 100%;
+}
 .main-container footer .social a:hover {
   background-color: #fff;
 }
-.main-container footer .social a:hover svg, .main-container footer .social a:hover i {
+.main-container footer .social a:hover svg,
+.main-container footer .social a:hover i {
   color: #000;
   fill: #000;
+}
+.main-container footer .social a:hover .nostr-logo {
+  border-color: #000;
+}
+.main-container footer .social a:hover .nostr-logo > span {
+  background-color: #000;
 }
 .main-container footer .social a i {
   display: inline-block;
@@ -10851,11 +10876,13 @@ a {
   height: 50%;
 }
 
-.articles-list > div, .media-list > div {
+.articles-list > div,
+.media-list > div {
   margin-top: 2em;
   margin-bottom: 2em;
 }
-.articles-list > div::after, .media-list > div::after {
+.articles-list > div::after,
+.media-list > div::after {
   display: block;
   width: 5em;
   content: "";
