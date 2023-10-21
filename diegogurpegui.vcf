@@ -1,0 +1,16 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Diego H. Gurpegui
+N:Gurpegui;Diego;H.;;
+EMAIL;type=WORK,INTERNET:diego.gurpegui@improvein.com
+URL:https://diegogurpegui.com
+ORG:Improve-in
+TITLE:CTO
+URL;type=WORK;type=pref:https://www.improvein.com
+KEY;TYPE=PGP:https://diegogurpegui.com/diegogurpegui.pub.asc
+X-SOCIALPROFILE;TYPE=twitter:https://twitter.com/diegogurpegui
+X-SOCIALPROFILE;TYPE=instagram:https://www.instagram.com/diego.gurpegui
+X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/diegogurpegui
+SOURCE:https://diegogurpegui.com/diegogurpegui.vcf
+REV:20231021T001020Z
+END:VCARD
