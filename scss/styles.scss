@@ -77,46 +77,24 @@ a {
           margin: 1rem;
         }
 
-        .nostr-logo {
-          display: inline-block;
-          height: 1em;
-          width: 1em;
-          border-style: solid;
-          border-radius: 50%;
-          border-width: 1px;
-          border-color: $white;
-          overflow: hidden;
-          & > span {
-            background-color: $white;
-            display: inline-block;
-            height: 25%;
-            margin-top: 0.25em;
-            width: 100%;
-          }
-        }
-
         &:hover {
           background-color: $white;
           svg,
-          i {
+          i,
+          object {
             color: $black;
             fill: $black;
-          }
-
-          .nostr-logo {
-            border-color: $black;
-            & > span {
-              background-color: $black;
-            }
           }
         }
 
         i {
           display: inline-block;
         }
-        svg {
+        svg, object {
           width: 50%;
           height: 50%;
+          color: $white;
+          fill: $white;
         }
       }
     }

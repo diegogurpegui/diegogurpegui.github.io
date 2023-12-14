@@ -10798,43 +10798,23 @@ a {
     margin: 1rem;
   }
 }
-.main-container footer .social a .nostr-logo {
-  display: inline-block;
-  height: 1em;
-  width: 1em;
-  border-style: solid;
-  border-radius: 50%;
-  border-width: 1px;
-  border-color: #fff;
-  overflow: hidden;
-}
-.main-container footer .social a .nostr-logo > span {
-  background-color: #fff;
-  display: inline-block;
-  height: 25%;
-  margin-top: 0.25em;
-  width: 100%;
-}
 .main-container footer .social a:hover {
   background-color: #fff;
 }
 .main-container footer .social a:hover svg,
-.main-container footer .social a:hover i {
+.main-container footer .social a:hover i,
+.main-container footer .social a:hover object {
   color: #000;
   fill: #000;
-}
-.main-container footer .social a:hover .nostr-logo {
-  border-color: #000;
-}
-.main-container footer .social a:hover .nostr-logo > span {
-  background-color: #000;
 }
 .main-container footer .social a i {
   display: inline-block;
 }
-.main-container footer .social a svg {
+.main-container footer .social a svg, .main-container footer .social a object {
   width: 50%;
   height: 50%;
+  color: #fff;
+  fill: #fff;
 }
 
 .articles-list > div,
